@@ -1,0 +1,95 @@
+@font-face {
+font-family: font;
+src: local(font), url('font.ttf') format('opentype');
+}
+
+@font-face {
+font-family: font1;
+src: local(font1), url('font1.otf') format('opentype');
+}
+
+article {
+text-align: center;
+}
+
+a:link,a:visited {
+color: #FFF;
+background-color: #bef88c;
+text-align: center;
+padding: 6px;
+text-decoration: none;
+}
+
+a:hover,a:active {
+background-color: #82c943;
+}
+
+ul {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+
+li {
+display: inline;
+}
+
+#title {
+font-family: font;
+font-size: 120px;
+}
+
+#nav {
+font-family: font1;
+font-size: 25px;
+}
+
+#center {
+text-align: center;
+}
+
+#social {
+text-align: center;
+}
+
+#portext{
+font-size:2em;
+}
+
+#login {
+font-family: font1;
+font-size: 20px;
+color: white;
+padding: 6px;
+border: black;
+border-style: ridge;
+float: right;
+background-color: #bef88c;
+}
+
+#contact{
+font-family:font1;
+color:#82c943;
+}
+
+body {
+	padding: 50px 100px;
+	font-size: 13px;
+	font-style: Verdana, Tahoma, sans-serif;
+	color:#bef88c;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: #82c943;
+}
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #82c943;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
